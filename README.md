@@ -39,7 +39,7 @@ This frame is extracted from the input video and used as the base reference for 
 
 The following graph plots the estimated **speed vs distance**  during the bowler’s run-up. This is calculated using the displacement of the detected bowler across frames, scaled to real-world units using fixed markers (tripod and stump).
 
-![Speed Profile](output_images/speed_profile_bowler.png)
+![Speed Profile](output_images/speed_profile_bowler.PNG)
 
 ---
 
