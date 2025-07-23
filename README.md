@@ -25,4 +25,27 @@ This project analyzes a cricket bowler’s run-up by applying computer vision te
 
 ---
 
+## 📊 Sample Output
+
+### 🎥 Bowler’s Run-up Snapshot
+
+This frame is extracted from the input video and used as the base reference for all processing — including detection and pose tracking.
+
+![Bowler's Run-up](output%20images/bowler's%20run%20up.png)
+
+---
+
+### 📈 Speed Profile of the Bowler
+
+The following graph plots the estimated **speed vs frame number** (or time) during the bowler’s run-up. This is calculated using the displacement of the detected bowler across frames, scaled to real-world units using fixed markers (tripod and stump).
+
+![Speed Profile](output%20images/Speed%20profile%20of%20the%20bowler.png)
+
+---
+
+### 🦶 Step Count Detection
+
+This plot highlights the local maxima in the speed signal to estimate the **number of steps** the bowler takes during the run-up. Peaks in motion profile correspond to foot impact points.
+
+![Step Count Detection](output%20images/Finding%20the%20step%20count%20of%20the%20bowler.png)
 
