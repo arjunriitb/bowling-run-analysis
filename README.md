@@ -25,5 +25,4 @@ This project analyzes a cricket bowler’s run-up by applying computer vision te
 
 ---
 
-## 📂 Folder Structure
 
